@@ -1,12 +1,6 @@
 #include "matrix_mult.h"
 #include <arm_neon.h> // ARM NEON intrinsics
 
-// [0, 1, 0, 1] // 2d
-// [0, 1, 2, 3] // 1d (row to next row (0 to 4) is )
-
-// [1, 2, 3, 4]
-
-// 16 bytes to reach next row (down 1 in column)
 
 // Original Naive (Vertical) - O(N^3) with severe cache misses
 void matrix_multiplication_naive(
