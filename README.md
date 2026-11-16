@@ -5,6 +5,7 @@ A collection of high-performance mathematical algorithms and linear algebra oper
 ## Repository Structure
 
 * **`/matrix_multiplication`**: An exploration of cache locality and SIMD vectorization using ARM NEON intrinsics to optimize O(N^3) matrix multiplication.
+* **`/Fourier Transform`**: An implementation of the Discrete Fourier Transform (DFT) and an exploration into optimizing the Fast Fourier Transform (FFT), focusing on time-to-frequency domain conversions and reducing algorithmic complexity from (N^2) to O(N log N).
 
 ## Environment & Build Tools
 * **Language:** C++17
